@@ -27,7 +27,7 @@ void loop() {
     Serial.println(" cm");
   }
   
-  // No delay for maximum speed
+  delay(100);
 }
 
 int readDistance() {
