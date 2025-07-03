@@ -12,8 +12,9 @@ HardwareSerial tfMini(2);
 
 void setup() {
   Serial.begin(115200);
-  tfMini.begin(115200, SERIAL_8N1, 13, 12); // RX and TX
-  
+  // tfMini.begin(115200, SERIAL_8N1, 13, 12); // RX and TX
+  tfMini.begin(115200, SERIAL_8N1, 7, 6); // RX and TX
+
   Serial.println("TF Mini Simple Fast Reader");
 }
 
